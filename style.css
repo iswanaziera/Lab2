@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lavender; /* background color */
+}
+
+.logo img {
+    max-width: 2000%; 
+    height: auto; 
+    max-height: 200px;
+}
+
+/* Navigation */
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgb(213, 166, 241);
+}
+
+.navigation a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Content */
+.content {
+    display: flex;
+    flex-grow: 1;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Body Area */
+.body-area {
+    flex-grow: 1; /* allows it to fill the space */
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: rgb(200, 200, 200);
+    text-align: left;
+}
+
+/* Profile Photo */
+.profile-photo {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Hobbies List */
+.hobbies-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Campus Gallery */
+.campus-gallery {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.campus-gallery figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+    margin: 10px;
+}
+
+.campus-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(200, 200, 200);
+    font-weight: bold;
+}
+
+
